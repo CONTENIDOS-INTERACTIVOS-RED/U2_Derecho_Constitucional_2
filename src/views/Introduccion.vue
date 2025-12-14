@@ -16,11 +16,11 @@
     .bg-full-width.bg-color-3.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto.mb-3.mb-lg-0
+          .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
             img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
           .col-lg.text-white
             p.mb-0 Dada su relevancia para el Estado de Derecho y los derechos humanos, el estudio de la JEP es esencial para juristas comprometidos con la justicia y la paz. Se analizará su impacto en la justicia ordinaria y la política criminal, abordando temas como los fundamentos normativos, el funcionamiento de sus salas y ejemplos representativos de su actuar. Se invita a abordar esta unidad con reflexión crítica y comprensión del contexto histórico del proceso de paz en Colombia.
 
-        
+
 
 </template>

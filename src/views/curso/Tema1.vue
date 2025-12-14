@@ -12,7 +12,7 @@
     
         .bg-color-1.p-5(data-aos="fade-left")
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/2.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Creada en el marco del Acuerdo Final de Paz de 2016 entre el Estado colombiano y las FARC-EP, la JEP fue concebida como la columna vertebral del componente de justicia del Sistema Integral de Verdad, Justicia, Reparación y No Repetición. Este sistema interinstitucional busca satisfacer los derechos de las víctimas y garantizar una transición hacia una paz estable y duradera. En ese contexto, la JEP tiene como función principal el esclarecimiento de crímenes graves cometidos durante el conflicto armado, así como la implementación de medidas restaurativas que promuevan la reconciliación nacional.
@@ -147,7 +147,7 @@
     
         .bg-color-2.p-5(data-aos="fade-left")
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/13.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Comprender este conjunto de principios resulta esencial para interpretar la singularidad de esta jurisdicción y valorar críticamente su papel dentro del proceso de transición hacia la paz.
@@ -218,7 +218,7 @@
     .bg-full-width.bg-color-3.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto.mb-3.mb-lg-0
+          .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/20.svg", style="max-width: 90px").mx-auto
           .col-lg.text-white
             p.mb-0 Este entramado normativo convierte a la JEP en una jurisdicción híbrida, con una arquitectura jurídica compleja que articula derecho constitucional, derecho internacional y enfoques restaurativos. Su legitimidad y eficacia dependen de la correcta aplicación de estos principios, los cuales constituyen su núcleo normativo.

@@ -10,7 +10,7 @@
       .col-lg-8.order-lg-1
         .bg-color-2.p-5(data-aos="fade-left").mb-3
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema2/2.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Comprender el funcionamiento de la Jurisdicción Especial para la Paz (JEP) exige conocer en detalle tanto su organización interna como el alcance de sus competencias judiciales. La arquitectura institucional de la JEP no es una copia de la justicia ordinaria ni una creación arbitraria. Por el contrario, fue diseñada de forma intencionada para atender las particularidades del conflicto armado colombiano y para dar cumplimiento a los principios de verdad, justicia, reparación y no repetición.
@@ -51,7 +51,7 @@
 
     .bg-color-5.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0
+        .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema2/5.png', alt='')
         .col-lg
@@ -127,7 +127,7 @@
     
         .bg-color-1.p-5.mb-3(data-aos="fade-left")
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema2/12.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 El proceso de selección de magistrados fue innovador, con una convocatoria nacional e internacional, criterios de diversidad étnica, regional, de género y profesional, y evaluación por comisiones independientes. Esta pluralidad fortaleció la legitimidad de la JEP y su percepción como un tribunal imparcial e incluyente.
@@ -199,7 +199,7 @@
           .col-lg-3.mb-3.mb-lg-0
             .bg-color-3.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/16.svg", style="max-width: 90px").mx-auto
                 .col-lg.text-white
                   h5.mb-2 01
@@ -207,7 +207,7 @@
           .col-lg-3.mb-3.mb-lg-0
             .bg-color-3.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/17.svg", style="max-width: 90px").mx-auto
                 .col-lg.text-white
                   h5.mb-2 02
@@ -215,7 +215,7 @@
           .col-lg-3.mb-3.mb-lg-0
             .bg-color-3.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/18.svg", style="max-width: 90px").mx-auto
                 .col-lg.text-white
                   h5.mb-2 03
@@ -223,7 +223,7 @@
           .col-lg-3.mb-3.mb-lg-0
             .bg-color-3.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/19.svg", style="max-width: 90px").mx-auto
                 .col-lg.text-white
                   h5.mb-2 03
@@ -232,7 +232,7 @@
         .bg-full-width.bg-color-3.mb-5
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto.mb-3.mb-lg-0
+              .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/20.svg", style="max-width: 90px").mx-auto
               .col-lg.text-white
                 p.mb-0 Este modelo rompe con la lógica pasiva de la justicia penal ordinaria y reafirma la centralidad de las víctimas.
@@ -245,7 +245,7 @@
 
     .bg-color-4.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.order-2
+        .col-lg-auto.mb-3.mb-lg-0.order-2
           figure
             img(src='@/assets/curso/tema2/21.png', alt='')
         .col-lg.order-1.mb-3.mb-lg-0
@@ -318,7 +318,7 @@
         .bg-full-width.bg-color-3.mb-5
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto.mb-3.mb-lg-0
+              .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/20.svg", style="max-width: 90px").mx-auto
               .col-lg.text-white
                 p.mb-0 El incumplimiento puede llevar a la recalificación de la sanción, convirtiendo una restaurativa en una sanción ordinaria, lo cual fortalece la credibilidad del sistema.
