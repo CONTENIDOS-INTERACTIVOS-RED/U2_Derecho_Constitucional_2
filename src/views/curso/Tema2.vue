@@ -362,6 +362,12 @@
         p El modelo de procedimientos y sanciones de la JEP trasciende la lógica punitiva clásica. Su objetivo no es solo castigar, sino transformar el daño en reparación social. Al permitir que quienes participaron en el conflicto reparen con acciones y no solo con encierro, se avanza hacia una justicia transicional con sentido restaurativo, simbólico y colectivo.
         p Estudiar este modelo permite comprender que no se trata únicamente de una reforma legal, sino de una propuesta de justicia integral. Esta busca articular la verdad, participación y reparación en un marco de dignidad humana, respeto a las víctimas y compromiso con la paz.
 
+
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
         h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
@@ -413,8 +419,186 @@
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
-  name: 'Tema2',
+  name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Herramientas colaborativas para la construcción de paz',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál es el principal fundamento normativo que dio origen a la Jurisdicción Especial para la Paz (JEP)?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Ley 1957 de 2019',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Ley 1448 de 2011',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Acto legislativo 01 de 2017',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Sentencia C-674 de 2017',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué principio constitucional es importante para el funcionamiento de la JEP, pues sitúa a las víctimas en el centro del proceso?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Proporcionalidad',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Dignidad humana',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Legalidad penal',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Separación de poderes',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Cuál de las siguientes salas de la JEP tiene como función priorizar macro casos y determinar hechos y responsabilidades?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Sala de reconocimiento de verdad, responsabilidad y determinación de los hechos y conductas',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Sala de definición de situaciones jurídicas',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Sala de amnistía o indulto',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Sección de primera instancia sin reconocimiento de responsabilidad',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Cuál es una característica fundamental de la JEP que la diferencia de la justicia ordinaria?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Su naturaleza consultiva',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Su dependencia de la Corte Constitucional',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Su carácter autónomo y transitorio',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Su enfoque retributivo',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Cuál es el tipo de sanción impuesta por la JEP a quienes reconocen tempranamente su responsabilidad y contribuyen a la verdad?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Sanción penal ordinaria',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Sanción privativa de libertad',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Sanción propia de carácter restaurativo',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Sanción económica retroactiva',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -423,4 +607,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>

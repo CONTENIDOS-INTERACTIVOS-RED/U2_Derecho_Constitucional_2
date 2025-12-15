@@ -54,21 +54,6 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Límites y control de las reformas constitucionales',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Límites materiales a la reforma',
-            hash: 't_3_1',
-          },
-        ],
-      },
-      {
         nombreRuta: 'sintesis',
         titulo: 'Síntesis',
         desarrolloContenidos: true,
